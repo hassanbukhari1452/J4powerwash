@@ -55,7 +55,7 @@ h4 {
 p {
     margin-bottom: 1rem;
     font-size: 1.1rem;
-    color: #555;
+    color: white;
 }
 
 /* Buttons */
@@ -87,8 +87,8 @@ p {
 }
 
 .btn-secondary {
-    background-color: transparent;
-    color: #1B365D; 
+    background-color: #1B365D;
+    color: white; 
     border-color: #1B365D;
 }
 
