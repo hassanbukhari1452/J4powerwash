@@ -285,8 +285,7 @@ p {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(27, 54, 93, 0.7), rgba(27, 54, 93, 0.7)),
-                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect fill="%23417BA8" width="1200" height="800"/><path fill="%23F5F7FA" opacity="0.1" d="M0 400L50 420C100 440 200 480 300 480C400 480 500 440 600 420C700 400 800 400 900 380C1000 360 1100 320 1150 300L1200 280V800H0V400Z"/></svg>');
+    background: white;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -296,14 +295,7 @@ p {
     text-align: center;
 }
 
-.hero-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, rgba(27, 54, 93, 0.8), rgba(27, 54, 93, 0.6));
-}
+
 
 .hero-content {
     position: relative;
@@ -535,9 +527,8 @@ p {
 
 /* Services Hero */
 .services-hero {
-    height: 60vh;
-    background: linear-gradient(rgba(27, 54, 93, 0.8), rgba(27, 54, 93, 0.8)),
-                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%23417BA8" width="1200" height="600"/><path fill="%23F5F7FA" opacity="0.1" d="M0 300L50 320C100 340 200 380 300 380C400 380 500 340 600 320C700 300 800 300 900 280C1000 260 1100 220 1150 200L1200 180V600H0V300Z"/></svg>');
+    height: 80vh;
+    background: white;
     background-size: cover;
     background-position: center;
     display: flex;
